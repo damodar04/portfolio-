@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <style>
+      body{
+        background: rgb(237, 165, 237);
+      }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .hero{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background: rgb(237, 165, 237);
+        }
+        .hero img{
+                    width: 200px;
+        }
+        nav{
+            display: flex;
+            width: 84%;
+            margin: auto;
+            padding: 20px 0;
+
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin: 10px 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(3, 3, 3);
+            font-weight: bold;
+        }
+        nav ul li a:hover{
+            color: red;
+        }
+        .detel{
+          margin-left: 8%;
+          margin-top: 10%;
+        }
+        .detel h1{
+            font-size: 50px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        span{
+            color: rgb(107, 4, 107);
+        }
+        .detel p{
+            color: #555;
+            line-height: 22px;
+        }
+        .detel a{
+            background: #212121;
+            padding: 10px 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+            display: inline-block;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        .image{
+            width: 20%;
+            height: 50%;
+            position: absolute;
+            top: 250px;
+            bottom: 0;
+            right: 270px;
+
+        }
+        .image img{
+            height: 120%;
+            width: 300px;
+            position: absolute;
+            left: 40%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transition: bottom 1s,left 1s;
+        }
+        .image:hover .Shape{
+        bottom: 40px; 
+        
+        }
+        .image:hover .girl{
+    left: 45%;
+        }
+        .cartoon{
+            width: 20%;
+            height: 50%;
+            position: absolute;
+            top: 250px;
+            bottom: 0;
+            right: 40px;
+          }
+         
+    </style> 
+</head>
+<body>
+    <div class="hero">
+     <nav>
+        <img src="web_development_logo-removebg-preview.png" class="Imgee">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="http://127.0.0.1:5500/cplus.cpp/myprofile/myprofile2/contact.html">Contact </a></li>
+            <li><a href="#">Work with us</a></li>
+           
+            <select style="color:rgb(203, 26, 234);" name="In" id="In">Select
+                <option value="Login">Login</option>
+                <option value="Sign up">Sign up</option>
+                </select>
+        </ul>
+     </nav>
+     <div class="detel">
+        <h1>
+            I,m 
+            <span>Damodar
+            </span>
+        </h1>
+        <p>This is the platform where you share your thought and also explore new things.
+            <br> Like if you confused on which Courses to take?I have got you covered.
+            <br>  Browse courses and find out the best course for you. Its free! 
+        </p>
+        <a href="#">Upload ideas</a>
+        <a href="#">Free courses</a>
+       
+      </div>
+     <div class="image">
+      
+     <h2>Recommended Courses and Channels</h2>
+     <br>
+     <br>
+     <h4>Channels</h4><br>
+     <div>
+        <ul type="disk">
+    
+           <li><a href="https://codewithharry.com" target="_blank">Code with harry</a></li> <br>
+           <li><a href="https://codehelp.in" target="_blank">Code help With Babbar</a></li><br>
+           <li><a href="https://apnacollege.in" target="_blank">Apni Kaksha</a></li> <br>
+           
+           <h4>Platform for practices</h4>
+           <br>
+           <li><a href="https://prepinsta.com" target="_blank">Prepinsta</a></li>  <br>
+           <li><a href="https://www.hackerrank.com " target="_blank">Hackerrank</a></li><br>
+           <li><a href="https://www.codechef.com" target="_blank">Codechef</a></li>  <br>
+           <li><a href="https://leetcode.com" target="_blank">Leetcode</a></li>  <br>
+           <li><a href="https://www.codingninjas.com" target="_blank">Coding ninja</a></li>  <br>
+        </ul>
+       </div>
+     </div> 
+    <div class="cartoon">
+        <img src="https://i.ibb.co/7YC11m6/IMG-20230311-WA0003.jpg">
+    </div>
+    
+    </div>
+    
+    </div>
+    
+</body>
+</html>
